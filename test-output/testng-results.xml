@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-10T11:49:38 IST" name="Default suite" finished-at="2024-04-10T11:49:42 IST" duration-ms="3503">
+  <suite started-at="2024-08-30T12:06:34 IST" name="Default suite" finished-at="2024-08-30T12:06:38 IST" duration-ms="4469">
     <groups>
     </groups>
-    <test started-at="2024-04-10T11:49:38 IST" name="Default test" finished-at="2024-04-10T11:49:42 IST" duration-ms="3503">
-      <class name="alwayspracticehere.NewyyyyyTest">
-        <test-method signature="fTest()[pri:0, instance:alwayspracticehere.NewyyyyyTest@2c07545f]" started-at="2024-04-10T11:49:38 IST" name="fTest" finished-at="2024-04-10T11:49:42 IST" duration-ms="3297" status="PASS">
+    <test started-at="2024-08-30T12:06:34 IST" name="Default test" finished-at="2024-08-30T12:06:38 IST" duration-ms="4469">
+      <class name="dccv.postssssTest">
+        <test-method signature="fTest()[pri:0, instance:dccv.postssssTest@c94fd30]" started-at="2024-08-30T12:06:34 IST" name="fTest" finished-at="2024-08-30T12:06:38 IST" duration-ms="4257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fTest -->
-      </class> <!-- alwayspracticehere.NewyyyyyTest -->
+      </class> <!-- dccv.postssssTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

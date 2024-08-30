@@ -41,6 +41,28 @@ public class NewkTest {
 	  
 	  given().when().get("https://reqres.in/api/users?page=2").then().assertThat().statusCode(200).body("data[1].id", equalTo(8));
   }
+  
+  @Test
+  public void fkllTest() {
+	  
+	  
+	  
+	  given().when().get("https://reqres.in/api/users?page=2").then().assertThat().statusCode(200).body("data[4].id", equalTo(11));
+  }
+  
+  @Test
+  public void fklklTest() {
+	  
+	  
+	  
+	  given().when().get("https://reqres.in/api/users?page=2").then().assertThat().statusCode(200).body("data[4].id", equalTo(11)).log().all();
+	  
+  
+  
+  }
+  
+  
+  
 }
 
 

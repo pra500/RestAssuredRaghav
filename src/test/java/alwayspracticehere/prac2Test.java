@@ -12,14 +12,14 @@ import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 
-
+//need to chk again
 
 
 
 public class prac2Test {
 	
-	
-  @Test
+
+  //@Test
   public void getTest() {
 	  
 	  given().when().get("https://reqres.in/api/users/2").then().statusCode(200).body("data.id", greaterThan(1)).log().all();
@@ -28,7 +28,7 @@ public class prac2Test {
   
   
   
-  @Test
+ // @Test
   public void get1est() {
 	  
 	  
@@ -36,9 +36,29 @@ public class prac2Test {
 	  
   }
   
-  //need to chk below
+
+  @Test
+  public void getyTest() {
+	  
+	  
+	  given().when().get("https://reqres.in/api/users/2").then().statusCode(200).body("data[3].email", equalTo("byron.fields@reqres.in")).log().all();
+	  
+  }
+  
   
   @Test
+  public void gety1Test() {
+	
+	  
+	  given().when().get("https://reqres.in/api/users?page=2").then().assertThat().statusCode(200).body("data[3].email", equalTo("byron.fields@reqres.in"));
+	  
+  }
+  
+
+  
+  //need to chk below
+  
+  //@Test
   public void postTest() {
 	  
 	  JSONObject jo=new JSONObject();
