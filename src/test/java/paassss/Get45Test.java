@@ -27,7 +27,7 @@ import org.testng.annotations.Test;
 
 public class Get45Test {
   @Test
-  public void fTest() {
+  public void feTest() {
 	  
 	  given().when().get("https://reqres.in/api/unknown/2").then().statusCode(200).log().all();
   }
