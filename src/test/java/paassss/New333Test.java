@@ -23,9 +23,22 @@ import java.util.Map;
 
 
 public class New333Test {
-  @Test
-  public void fTest() {
+  //@Test
+  public void f1111Test() {
 	  given().auth().none().when().get("https://reqres.in/api/users?page=2").then().statusCode(200);
+	  
+  }
+  
+  //@Test
+  public void f111Test() {
+	  given().auth().none().when().get("https://reqres.in/api/users?page=2").then().statusCode(200);
+	  
+  }
+  
+  
+  @Test
+  public void f1Test() {
+	  given().auth().none().when().get("https://reqres.in/api/users?delay=3").then().statusCode(200).body("data[0].id", equalTo(1));
 	  
   }
 }

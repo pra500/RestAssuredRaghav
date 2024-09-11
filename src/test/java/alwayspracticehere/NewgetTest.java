@@ -34,4 +34,17 @@ public class NewgetTest {
   
   
   
+
+  @Test
+  public void feeTest() {
+	  
+	  //https://reqres.in/api/unknown/1
+	  given().auth().none().header("Content-Type", "application/type").when().get("https://reqres.in/api/unknown/1").then().assertThat()
+	  .statusCode(200);
+	  
+	  
+	  
+  }
+  
+  
 }

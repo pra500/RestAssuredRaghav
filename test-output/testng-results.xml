@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T12:06:34 IST" name="Default suite" finished-at="2024-08-30T12:06:38 IST" duration-ms="4469">
+  <suite started-at="2024-09-11T08:16:04 IST" name="Default suite" finished-at="2024-09-11T08:16:15 IST" duration-ms="11908">
     <groups>
     </groups>
-    <test started-at="2024-08-30T12:06:34 IST" name="Default test" finished-at="2024-08-30T12:06:38 IST" duration-ms="4469">
-      <class name="dccv.postssssTest">
-        <test-method signature="fTest()[pri:0, instance:dccv.postssssTest@c94fd30]" started-at="2024-08-30T12:06:34 IST" name="fTest" finished-at="2024-08-30T12:06:38 IST" duration-ms="4257" status="PASS">
+    <test started-at="2024-09-11T08:16:04 IST" name="Default test" finished-at="2024-09-11T08:16:15 IST" duration-ms="11908">
+      <class name="paassss.New333Test">
+        <test-method signature="f1Test()[pri:0, instance:paassss.New333Test@2c4d1ac]" started-at="2024-09-11T08:16:04 IST" name="f1Test" finished-at="2024-09-11T08:16:15 IST" duration-ms="11407" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fTest -->
-      </class> <!-- dccv.postssssTest -->
+        </test-method> <!-- f1Test -->
+      </class> <!-- paassss.New333Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
