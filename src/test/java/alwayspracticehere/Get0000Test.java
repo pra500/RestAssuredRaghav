@@ -48,7 +48,7 @@ public class Get0000Test {
   
   
   @Test
-  public void frTest() {
+  public void frrTest() {
 	  
 	  given().when().get("https://gorest.co.in/public/v2/users?id=6930048").then().assertThat().statusCode(200).body("name", equalTo("Rep. Bandhu Bharadwaj")).log().all();
   }

@@ -71,4 +71,21 @@ public class GetllTest {
 	  
 	  
   }
+  
+  
+  
+  
+
+  @Test
+  public void fokjeTest() {
+
+	  
+	  
+	  //need to chk below
+	  given().when().get(" 	").then().assertThat().statusCode(200).body("data[0].email", equalTo("lindsay.ferguson@reqres.in")).
+	 .and(). log().all();
+	  
+	  
+	  
+  }
 }

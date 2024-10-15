@@ -40,11 +40,12 @@ public class Get45Test {
 	  given().when().get("https://gorest.co.in/public/v2/users/7396319").then().statusCode(200).log().all();
   }
   @Test
-  public void feeTest() {
+  public void geTest() {
 	  
 	  given().when().get("https://gorest.co.in/public/v2/users/7396320").then().statusCode(200).log().all();
+	  	  	  
 	  
-	  
+	  //***************
 	  //***************
 	  //***************
 	  

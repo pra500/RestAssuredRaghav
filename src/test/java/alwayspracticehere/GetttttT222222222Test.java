@@ -73,6 +73,17 @@ public class GetttttT222222222Test {
 	  
 	  given().when().get("https://gorest.co.in/public/v2/posts?user_id=7343387");
   }
+  
+  
+  
+  
+ @Test
+  public void fl8800iTest() {
+	  
+	  given().when().get("https://dummy-json.mock.beeceptor.com/continents").then().statusCode(200)
+	  
+	  .log().all();
+  }
 
   
 

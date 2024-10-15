@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alwayspracticehere.Get66Test">
+      <class name="alwayspracticehere.PathandqueryparametersTest">
         <methods>
-          <include name="fTest"/>
+          <include name="hTest"/>
         </methods>
-      </class> <!-- alwayspracticehere.Get66Test -->
+      </class> <!-- alwayspracticehere.PathandqueryparametersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

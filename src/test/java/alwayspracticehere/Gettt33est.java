@@ -26,16 +26,28 @@ public class Gettt33est {
 	
   @Test
   public void fTest() {
+	  
+	  given().auth().none().when().get("https://dummy-json.mock.beeceptor.com/continents").then().and()
+	  .statusCode(200);
+	  
   }
   
   
   @Test
   public void fcfTest() {
+	  
+	  given().auth().none().when().get("https://dummy-json.mock.beeceptor.com/continents").then().and()
+	  .statusCode(200);
+	  
   }
   
   
   @Test
   public void ffffffTest() {
+	  
+	  given().auth().none().when().get("https://dummy-json.mock.beeceptor.com/continents").then().and()
+	  .statusCode(200);
+	  
   }
   
 }

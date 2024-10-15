@@ -42,4 +42,21 @@ public class NejjjkkTest {
 	  .statusCode(200).log().all();
   }
   
+  
+  
+  
+
+  @Test
+  public void erTest() {
+	  
+	  //given().header("Content-Type", "application/json").when().get("https://jsonplaceholder.typicode.com/posts").then().assertThat()
+	  //.statusCode(200).body("[2].id", equalTo(3));
+	  
+	  
+	  
+	  
+	  
+     }
+  
+  
 }

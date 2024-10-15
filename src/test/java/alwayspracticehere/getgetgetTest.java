@@ -24,4 +24,16 @@ public class getgetgetTest {
 	  
 	  given().contentType("application/json").when().get("https://reqres.in/api/users/2").then().assertThat().statusCode(200);
   }
+  
+  
+  
+  //@Test
+  public void ddfTest() {
+
+	  
+	 given().when().get("https://dummy-json.mock.beeceptor.com/continents").then().statusCode(200);
+		
+	  
+  }
 }
+
